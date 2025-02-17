@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@font-face {
+    font-family: Figtrees;
+    font-display: swap;
+    src: url("coll/fonts/Figtree-VariableFont_wght.ttf") format("woff2");
+}
+@theme{
+    --color-rightk:red;
+    --font-prim:Figtrees;
+    --font-sec:Figtree;
+    --text-new:20px;
+    
+    --breakpoint-md:375px;
+  
+
+  }
+  .body{
+    @apply border-[1px] border-r-[10px] border-b-[10px];
+  }
+ 
